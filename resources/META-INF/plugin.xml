@@ -41,7 +41,14 @@
             text="Convert To Unicode Escaped String"
             icon="ActionIcons.PLUGIN_ICON"
             description="Convert a native string value to the Unicode Escaped String">
-      <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+      <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+    </action>
+    <action id="com.antkorwin.unicoder.NormalizeUnicodeAction"
+            class="com.antkorwin.unicoder.NormalizeUnicodeAction"
+            text="Normalize Unicode"
+            icon="ActionIcons.PLUGIN_ICON"
+            description="Normalize unicode String">
+      <add-to-group group-id="EditorPopupMenu" anchor="last"/>
     </action>
   </actions>
 
